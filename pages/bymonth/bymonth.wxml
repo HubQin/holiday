@@ -1,0 +1,20 @@
+<!--pages/bymonth/bymonth.wxml-->
+<view>
+	<view class="section">
+	  <picker bindchange="bindPickerChange" value="{{index}}" range="{{allMonths}}" range-key="{{'month'}}">
+	    <view class="picker">
+	      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg" style="text-align: center;">
+           <view class="weui-media-box__title">当前选择：{{allMonths[index].month}}</view>
+        </view>
+	      <button type="primary">轻触选择</button>
+	    </view>
+	  </picker>
+	</view>
+  <view style="height:{{Height}}">
+    <image src="{{imgUrl}}" mode="widthFix" bindload='imgHeight' style="width:100%;"/>
+  </view>
+  <view class="weui-media-box__bd weui-media-box__bd_in-appmsg" style="margin: 3%;">
+      <view class="weui-media-box__desc">{{texts[index]}}</view>
+  </view>
+</view>
+

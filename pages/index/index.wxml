@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view>
+  <view>
+    <swiper indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{bg}}" bindchange="bindchange" style="height:{{imgHeights[currentId]}}">
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" data-id="{{index}}" mode="widthFix" bindload='imgHeight' style="width:100%;"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="weui-media-box__bd weui-media-box__bd_in-appmsg" style="margin: 3%;">
+      <view class="weui-media-box__desc">{{texts[currentId]}}</view>
+  </view>
+</view>

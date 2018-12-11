@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/bymonth/bymonth",
+    "pages/byfestival/byfestival"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "2019节假日放假安排",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+        "list": [{
+        "pagePath": "pages/index/index",
+        "text": "2019全年",
+        "iconPath": "images/holiday.png",
+        "selectedIconPath": "images/holiday-1.png"
+        }, {
+        "pagePath": "pages/bymonth/bymonth",
+        "text": "按月份",
+        "iconPath": "images/month.png",
+        "selectedIconPath": "images/month-1.png"
+        },{
+        "pagePath": "pages/byfestival/byfestival",
+        "text": "按节日",
+        "iconPath": "images/festival.png",
+        "selectedIconPath": "images/festival-1.png"
+        }]
+    }
+}
