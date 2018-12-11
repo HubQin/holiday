@@ -4,5 +4,5 @@
 
 # 预览地址
 
-        ![qrcode](holiday/images/gh_00fae0319204_344.jpg)
+        ![qrcode](https://github.com/HubQin/holiday/blob/master/images/gh_00fae0319204_344.jpg)
       
