@@ -4,5 +4,5 @@
 
 # 预览地址
 
-        ![image](https://github.com/HubQin/holiday/blob/master/images/gh_00fae0319204_344.jpg)
+        ![image](https://raw.githubusercontent.com/HubQin/holiday/master/images/gh_00fae0319204_344.jpg)
       
